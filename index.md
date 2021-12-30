@@ -1,6 +1,17 @@
-### Markdown
+---
+layout: default
+title: Logos Learning Home
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+## Logos Learning
+
+Logos Learning is a Classical Christian tutoring organization. Our tutors help parents in the task of raising their children up with biblical worldview, intellectual rigor, and classical emphasis. 
+
+## Our Mission 
+1. Provide excellent tutoring
+2. Provide education resources for families, whether they choose homeschool, private school, virtual school, or government school
+3. Provide a Christian community for educators and students
 
 ```markdown
 Syntax highlighted code block
