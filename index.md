@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Logos Learning Home
+title: Logos Learning
 ---
 
 
