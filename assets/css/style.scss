@@ -1,24 +1,25 @@
-// @import "{{ site.theme }}";
+// Breakpoints
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
 
-// @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #991515 !default;
+$header-bg-color-secondary: #991515 !default;
 
-// /* LIGHT MODE THEMEING */
-// /* 
-// :root {
-//     --bg: #e2dfda;
-//     --accent: #407076;  
-//     --text: #1E212B;
-//     --font: 'Alegreya';
-//     --mono-font: 'Source Code Pro';
-// } 
+// Text
+$section-headings-color: #159957 !default;
+$body-text-color: #606c71 !default;
+$body-link-color: #1e6bb8 !default;
+$blockquote-text-color: #819198 !default;
 
-// */
+// Code
+$code-bg-color: #f3f6fa !default;
+$code-text-color: #567482 !default;
 
-// :root {
-//     --bg: #16181f;
-//     --accent: #5e878d;  
-//     --text: #e2dfda;
-//     --font: 'Alegreya';
-//     --mono-font: 'Source Code Pro';
-// }
+// Borders
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
+
+@import "{{ site.theme }}";
