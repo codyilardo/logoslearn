@@ -7,14 +7,14 @@
 // dark color scheme
 $dark-text: #000000;
 $dark-accent-text: #000000;
-$dark-link-text: #000000;
+$dark-link-underline: #000000;
 $dark-bg: #000000;
 
 // light color scheme
 $light-text: #090C02;
 $light-accent-text: #0D0C1D;
-$light-link-text: #161B33;
-$light-bg: #F1EDEE;
+$light-link-underline: #434d7e;
+$light-bg: #f4f7f8;
 
 body {
 
@@ -39,8 +39,24 @@ body {
     }
 
     a {
-        color: $light-link-text;
+        color: $light-text;
+        background:
+           linear-gradient(
+             to bottom,
+             var($light-link-text) 0%,
+             var($light-link-text) 100%
+           );
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 4px;
+        text-decoration: none;
+        transition: background-size .2s;
     }
+      
+    a:hover {
+        background-size: 4px 50px;
+    }
+
 }
 
 #header-title {
