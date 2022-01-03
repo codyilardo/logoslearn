@@ -31,6 +31,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Merriweather Sans', Helvetica, sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -108,10 +109,16 @@ a {
 }
 
 .page-header {
+  font-family: 'Merriweather', serif;
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  // background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-image: url('{{ site.baseurl }}/assets/images/desknotebook.jpg');
+
+  h2 {
+    font-style: italic;
+  }
 
   @include large {
     padding: 5rem 6rem;
