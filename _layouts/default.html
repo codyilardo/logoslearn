@@ -12,14 +12,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 id="header-title"><a href="{{ "/" | absolute_url }}">LOGOS LEARNING</a></h1>
-        <h3 id="header-tagline">{{ site.description | default: site.github.project_tagline }}</h3>
-        
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% elsif !site.logo %}
           <h1 id="header-title"><a href="{{ "/" | absolute_url }}">LOGOS LEARNING</a></h1>
-          <h3 id="header-tagline">{{ site.description | default: site.github.project_tagline }}</h3>
+          <p id="header-tagline">{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
 
         {% if site.github.is_project_page %}
