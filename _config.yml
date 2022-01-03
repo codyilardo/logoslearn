@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Logos Learning
 description: Excellent Tutoring. Christian Values. 
-logo: /assets/img/logo.png
+logo: /assets/img/logo.png 
 show_downloads: true
 google_analytics:
