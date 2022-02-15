@@ -2,95 +2,20 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Welcome to Logos Learning!
 
-[Link to another page](./another-page.html).
+Logos Learning is a Classical Christian tutoring organization. Our tutors help parents in the task of raising their children up with biblical worldview, intellectual rigor, and classical emphasis. 
 
-There should be whitespace between paragraphs.
+## Contact our Team
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Click [here](./another-page.html) to get in contact with one of our tutors. 
 
-# Header 1
+# Our Mission
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Our mission is to provide excellent tutoring, with a Christian worldview saturating all we do. [Read more about our tutors here](./another-page.html). Education is not a small task, so we aim to partner with families to give the best start they can to thier children. 
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+> “Education is the food of youth, the delight of old age, the ornament of prosperity, the refuge and comfort of adversity, and the provocation to grace in the soul.”
+> _Augustine_
 
 ### Small image
 
