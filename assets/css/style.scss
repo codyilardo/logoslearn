@@ -17,8 +17,8 @@ $light-link: #d46000;
 $light-bg: #ffffff;
 
 // other colors
-$header-bg-primary: #251100;
-$header-bg-secondary: #441f00;
+$header-bg-primary: #534f4f;
+$header-bg-secondary: #4a5a72;
 
 body {
     background-color: $light-bg;
@@ -54,10 +54,10 @@ a:hover {
 
 #page-header {
 
-    background-image: linear-gradient(90deg, $header-bg-primary, $header-bg-secondary);
+    background-image: linear-gradient(120deg, $header-bg-primary, $header-bg-secondary);
 
-    h1.a {
-        color: $light-bg;
+    h1, h2, h3 {
+        color: $light-bg !important;
         text-decoration: none;
     }
 }
