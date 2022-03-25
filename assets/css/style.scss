@@ -16,6 +16,11 @@ $light-accent-text: #0D0C1D;
 $light-link: #d46000;
 $light-bg: #ffffff;
 
+h1, h2, h3 {
+    color: $light-text !important;
+    font-family: 'Merriweather', serif;
+}
+
 body {
 
     background-color: $light-bg;
@@ -23,8 +28,8 @@ body {
     font-family: 'Merriweather', serif;  
 
     h1, h2, h3 {
-        font-family: 'Merriweather', serif;
         color: $light-text !important;
+        font-family: 'Merriweather', serif;
     }
 
     h4, h5, h6 {
