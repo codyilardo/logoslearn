@@ -16,48 +16,48 @@ $light-accent-text: #0D0C1D;
 $light-link: #d46000;
 $light-bg: #ffffff;
 
+// other colors
+$header-bg-primary: #251100;
+$header-bg-secondary: #441f00;
+
+body {
+    background-color: $light-bg;
+    font-family: 'Merriweather', serif;  
+}
+
 h1, h2, h3 {
     color: $light-text !important;
     font-family: 'Merriweather', serif;
 }
 
-body {
-
-    background-color: $light-bg;
-
-    font-family: 'Merriweather', serif;  
-
-    h1, h2, h3 {
-        color: $light-text !important;
-        font-family: 'Merriweather', serif;
-    }
-
-    h4, h5, h6 {
-        font-family: 'Merriweather Sans';
-        color: $light-accent-text;
-        font-weight: 400;
-    }
-
-    p {
-        font-family: 'Merriweather', sans-serif;
-        font-weight: 300;
-    }
-
-    a {
-        color: $light-link;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
+h4, h5, h6 {
+    font-family: 'Merriweather Sans';
+    color: $light-accent-text;
+    font-weight: 400;
 }
+
+p {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: $light-link;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 // header specific styling
 
-#header-title {
+#page-header {
+
+    background-image: linear-gradient(90deg, $header-bg-primary, $header-bg-secondary);
+
     h1.a {
-        color: black;
+        color: $light-bg;
         text-decoration: none;
     }
 }
