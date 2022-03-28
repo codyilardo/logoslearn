@@ -19,11 +19,11 @@ Our mission is to provide excellent tutoring, with a Christian worldview saturat
 
 ### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![Octocat](assets/img/partial_circle_black.svg)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](assets/img/full_circle_black.svg)
 
 
 ### Definition lists can be used with HTML syntax.
